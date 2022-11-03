@@ -1,0 +1,495 @@
+*{
+  box-sizing: border-box;
+ 
+}
+
+body{
+  /* background-image:url(https://duruthemes.com/demo/html/travol/img/slider/15.jpg) ; */
+  background-image:url(/Timg/bg\(3\).gif) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+   height: 100%;
+ }
+
+/* * ========================(navbar)============================================= */
+#navcolor {
+  background-color: #002a5b;
+}
+
+
+
+/* =======================(carosul)========================================================= */
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(41, 66, 91, 0.953);
+  opacity: 0.4;
+}
+
+.carousel-caption {
+  margin-bottom: 10%;
+}
+@media only screen and (max-width: 780px) {
+  .carousel-caption {
+    margin-bottom: 1%;
+  }
+  .carousel-caption > p {
+    font-size: 0.3vw;
+    letter-spacing: 0.3vw;
+    color: white;
+  }
+  .carousel-caption > h1 {
+    font-size: 3vw;
+    letter-spacing: 0.1vw;
+    font-weight: 10px;
+    font-family: "Lilita One", cursive;
+    color: rgba(255, 255, 255, 0.933);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+  }
+  .spann {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(139, 222, 255);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+  }
+}
+.carousel-caption > p {
+  font-size: 1.2vw;
+  letter-spacing: 0.4vw;
+  color: white;
+}
+.carousel-caption > h1 {
+  font-size: 5vw;
+  letter-spacing: 0.2vw;
+  font-weight: 30px;
+  font-family: "Lilita One", cursive;
+  color: rgba(255, 255, 255, 0.933);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+}
+.spann {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(139, 222, 255);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+}
+/* ====================(menu1)====================================================== */
+.spannn {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(41, 196, 180);
+}
+.menutext {
+  font-size: 45px;
+  letter-spacing: 0.2vw;
+  font-weight: 30px;
+  font-family: "Lilita One", cursive;
+}
+.smal {
+  font-size: 18px;
+  letter-spacing: 0.3vw;
+}
+#menuimage{
+  -webkit-box-shadow: 27px 27px 0px -3px #5489b4;
+-moz-box-shadow: 27px 27px 0px -3px #5489b4;
+box-shadow: 27px 27px 0px -3px #5489b4;
+   transition: all 0.4s linear;
+}
+#menuimage:hover{
+  -webkit-transform: scale(0.960);
+  -ms-transform: scale(0.960);
+  transform: scale(0.960);
+  -webkit-box-shadow: 27px 27px 23px 2px #5489b4;
+  -moz-box-shadow: 27px 27px 23px 2px #5489b4;
+  box-shadow: 27px 27px 23px 2px #5489b4;
+}
+/* ========================(menu2)====================================================================== */
+
+
+
+.accomodation_item .hotel_img {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accomodation_item .hotel_img img {
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+
+.accomodation_item .hotel_img .theme_btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  
+
+}
+
+.accomodation_item .hotel_img:hover img {
+    -webkit-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.theme_btn h1{
+  /* font-family: "Fredericka the Great", cursive; */
+  font-family: "Lilita One", cursive;
+  font-size: 19px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+
+}
+.theme_btn i{
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+  font-size: 13px;
+
+}
+
+
+.hotel_img{
+  -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+/* .hotel_img img:hover{
+   opacity: 0.6;
+  
+  }
+  .accomodation_item{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.494) 64.3%, rgba(0, 0, 0, 0.568) 69.3%, rgba(0, 0, 0, 0.657) 74.1%, rgba(0, 0, 0, 0.732) 78.8%, rgba(0, 0, 0, 0.76) 83.6%, rgba(0, 0, 0, 0.842) 88.7%, rgba(0, 0, 0, 0.897) 94.1%, rgb(0, 0, 0) 100%);
+  } */
+/* =========================(feture)======================================================= */
+#feture i{
+   font-size:50px ;
+   border: 1px solid white;
+   border-radius: 20px;
+}
+#feture h3{
+    font-family: "Fredericka the Great", cursive;
+    font-size: 40px;
+}
+#feturemenu{
+  background-color: rgba(41, 66, 91, 0.536);
+}
+/* ================================(slider)===================================================== */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ==========================(video)============================================ */
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.553);
+  opacity: 0.5;
+  z-index: 1;
+}
+.spannnn {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(255, 255, 255);
+}
+
+
+/* ================================(trip)==================================================== */
+#tripfafa i:hover{
+  color: rgb(41, 196, 180);
+  transition: all 0.3s linear;
+
+}
+/* ===========================(button)================================================= */
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+ 
+ .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+ }
+ 
+ .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+ }
+ 
+ .cta:active {
+  transform: scale(0.95);
+ }
+ .buttoon{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+/* ===================================================================================== */
+#upp{
+  background-color: #002f56af;
+  padding: 2px;
+}
+ /* =====================================(form)========================================= */
+
+.hotel_booking_table {
+  background: #04091ee8;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hotel_booking_table h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.boking_table {
+  margin-left: -50px;
+}
+
+.book_tabel_item .form-group {
+  margin-bottom: 0px;
+}
+
+.book_tabel_item .form-group .input-group {
+  position: relative;
+}
+
+.book_tabel_item .form-group .input-group .form-control {
+  border: 1px solid #ffffff;
+  background: transparent;
+  border-radius: 0px;
+  font-size: 13px;
+  line-height: 38px;
+  padding: 0px 20px;
+  color: #ffffff;
+  z-index: 0;
+}
+
+.book_tabel_item .form-group .input-group .form-control.placeholder {
+  color: #ffffff;}
+
+.book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
+  color: #ffffff;
+}
+.book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+
+.book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.book_tabel_item .form-group .input-group .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.book_tabel_item .form-group .input-group .input-group-addon {
+  background: transparent;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #adadad;
+  z-index: 2;
+}
+
+.book_tabel_item .input-group {
+  margin-bottom: 10px;
+}
+
+.book_tabel_item .nice-select {
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid #2b3146;
+  font-size: 13px;
+  line-height: 40px;
+  height: 40px;
+  color: #777;
+}
+
+.book_tabel_item .nice-select:after {
+  content: "\e874";
+  font-family: 'Linearicons-Free';
+  font-size: 13px;
+  color: #777777;
+  border: 0px;
+  top: 0;
+  margin-top: 0px;
+  right: 20px;
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.input-group select {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.868);
+  border: 1px solid #ffffffd1;
+  
+
+}g
+
+select option{
+  color: black;
+}
+.ravi{
+  box-shadow: rgba(0, 0, 0, 0.477) 0px 5px 15px;
+  background-color: #b0dbff89;
+}
+
+
+/* ===========================(testimonial)================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');*{margin: 0;padding: 0;font-family: 'Poppins', sans-serif}
+body{background-color: #161623;min-height: 100vh}
+body::before{content: '';position: absolute;left: 0;top: 0;width: 100%;height: 100%;clip-path: circle(25% at right)}
+body::after{content: '';position: absolute;left: 0;top: 0;width: 100%;min-height: 100vh;height: 100%;clip-path: circle(20% at 10% 10%)}
+.container{position: relative;z-index: 100}
+.container .row .card{width: 300px;height: 300px;margin: 30px;background: rgba(255, 255, 255, 0.1);overflow: hidden;backdrop-filter: blur(5px);border-top: 1px solid rgba(255, 255, 255, 0.5);border-left: 1px solid rgba(255, 255, 255, 0.5);border-radius: 15px;cursor: pointer}
+.container .row .card .card-body{padding: 1rem 1.2rem;color: #fff}
+.container .row .card .card-body .card-img img{width: 60px;height: 60px;object-fit: cover;transform: translateY(50px);transition: 0.5s;border-radius: 50%}
+.container .row .card .card-body .name{transform: translateY(50px);transition: 0.5s}
+.container .row .card .card-body .testimonial{font-size: 0.9rem;pointer-events: none;transform: translateY(10px);transition: 0.5s;opacity: 0}
+.container .row .card:hover .card-body .testimonial, .container .row .card:hover .card-body .name, .container .row .card:hover .card-body .card-img img{transform: translateY(0px);opacity: 1}
+@media(max-width: 991.5px)
+{body::after{clip-path: circle(40% at 10% 50%)}body::before{clip-path: circle(50% at right -10%)}}
+/* ======================================================================================================= */
+
+.themes_btn {
+  color: white;
+  /* text-align: start; */
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.themes_btn>h1 {
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .themes_btn>h1 {
+      font-size: 5vw;
+  }
+  .themes_btn>i {
+      font-size: 3vw;
+  }
+}
+/* =========================================================================== */

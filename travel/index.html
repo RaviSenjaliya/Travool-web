@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/index.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- fafa icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <!-- ---- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredericka+the+Great&family=Lilita+One&family=Monoton&family=Passion+One:wght@700&family=Secular+One&display=swap"
+    rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+  <!-- ==========================(navbar)=================================================================================== -->
+
+  <nav class="navbar navbar-expand-lg sticky-top " id="navcolor">
+    <div class="container-fluid">
+      <div class="navbar-brand"> 
+        <img src="https://duruthemes.com/demo/html/travol/img/logo-light.png" alt="" class="w-50 img-fluid" />
+       </div>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i id="navfafa" class="fa fa-bars" aria-hidden="true" ></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a id="navbarr" class="nav-link text-white" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="navbarr" class="nav-link text-white" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="navbarr" class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tours
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Tours 1</a></li>
+              <li><a class="dropdown-item" href="#">Tours 2</a></li>
+              <li><a class="dropdown-item" href="#">Tours 3</a></li>
+              <li><a class="dropdown-item" href="#">Tours 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a id="navbarr" class="nav-link text-white" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a id="navbarr" class="nav-link text-white" href="./img.html">Gallery</a>
+          </li>
+          
+          <li class="nav-item">
+            <a id="navbarr" class="nav-link text-white" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ===================================(carosul)========================================================================== -->
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/Timg/caro (2).jpg" class="d-block w-100 img-fluid" alt="...">
+        <div data-aos="fade-up" class="carousel-caption d-flex flex-column justify-content-center">
+          <P>LET'S TRAVEL THE WORLD WITH US</P>
+          <h1 class="animated "><span class="spann"> DISCOVER</span> THE WORLD <br> WITH OUR GUIDE</h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/Timg/caro (1).jpg" class="d-block w-100 img-fluid" alt="...">
+        <div data-aos="fade-up" class="carousel-caption d-flex flex-column justify-content-center ">
+          <P>LET'S TRAVEL THE WORLD WITH US</P>
+          <h1 class="animated ">EXPLORE THE WORLD <br> WITH<span class="spann"> TRAVOL</span> </h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/Timg/caro (3).jpg" class="d-block w-100 img-fluid" alt="...">
+        <div data-aos="fade-up" class="carousel-caption d-flex flex-column justify-content-center ">
+          <P>LET'S TRAVEL THE WORLD WITH US</P>
+          <h1 class="animated ">EXPLORE ROOM WITH<span class="spann"> <br> TRAVOL</span> </h1>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ==================================(menu1)================================================================================== -->
+
+  <div class="container-fluid py-5 " style="background-color: #ffffff;">
+    <div class="container">
+      <div class="row py-5">
+
+        <div class="col-md-6 p-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <small class="smal mb-2">THE BEST TRAVEL AGENCY</small>
+          <h1 class="menutext">DISCOVER THE <span class="spannn">WORLD</span> WITH OUR GUIDE</h1>
+          <br>
+          <small>You can choose any country with good tourism. Agency elementum sesue the aucan vestibulum aliquam justo
+            in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere
+            blane.</small>
+          <br><br>
+          <small>Hotel ut nisl quam nestibulum ac quam nec odio elementum ceisue the miss varius natoque penatibus et
+            magnis dis parturient monte.</small> <br><br>
+          <i class="fa fa-check-circle" style="color:#5489b4;font-size: 30px;" aria-hidden="true"> <small
+              style=" color: black ;font-size: 15px ;"> 20 Years of Experience</small> </i><br>
+          <i class="fa fa-check-circle" style="color:#5489b4; font-size: 30px;" aria-hidden="true"> <small
+              style=" color: black ;font-size: 15px ;"> 150+ Tour Destinations</small> </i><br>
+          <i class="fa fa-phone pt-3" style="color:#5489b4 ;font-size: 40px;" aria-hidden="true"> <small
+              style=" color: #5489b4 ;font-size: 22px ; font-family: Fredericka the Great, cursive;  "> 855 333
+              4444</small></i>
+        </div>
+        <div class="col-md-1"></div>
+
+        <div class="col-md-5  p-4" data-aos="fade-up">
+          <img src="/Timg/menu1.jpeg" alt="" id="menuimage" class="img-fluid" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===================================(POPULAR TOURS)=====================================================================================-->
+
+  <section class="accomodation_area section_gap py-3 pt-5" style="background-color: #f4f5f8;">
+    <div class="container pb-5 ">
+      <div class="row accomodation_two">
+        <small class="smal mb-2">THE BEST TRAVEL AGENCY</small>
+        <h1 class="menutext">POPULAR <span class="spannn">TOURS</span> </h1>
+
+        <div class="col-md-8 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/p1.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Maldives Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Maldives </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/p2.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Italy Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 12 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 35+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Italy </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row accomodation_two my-3">
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/p3.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>France Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> France </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/p4.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Greece Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/p5.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Canada Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Canada </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =====================================(feture (4))=============================================================== -->
+
+  <div class="container-fluid text-white py-5  text-center" id="feturemenu">
+    <div class="container-fluid text-center py-5">
+      <div class="row  ">
+        <div class="col-sm-3 pb-2" id="feture">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon data-aos="zoom-in-up"  src="https://cdn.lordicon.com/etxoaevu.json" trigger="hover" style="width:150px;height:150px">
+          </lord-icon>
+          <h3>560</h3>
+          <b>review</b>
+        </div>
+        <div class="col-sm-3 pb-3" id="feture">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon data-aos="zoom-in-up" src="https://cdn.lordicon.com/fmpamzwr.json" trigger="hover" style="width:150px;height:150px">
+          </lord-icon>
+          <h3>250</h3>
+          <b>Amazing Tour</b>
+        </div>
+        <div class="col-sm-3 pb-3" id="feture">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon data-aos="zoom-in-up" src="https://cdn.lordicon.com/itijrood.json" trigger="hover" style="width:150px;height:150px">
+          </lord-icon>
+          <h3>100</h3>
+          <b>Cruises Booking</b>
+        </div>
+        <div class="col-sm-3 pb-3" id="feture">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon data-aos="zoom-in-up" src="https://cdn.lordicon.com/ghqftigj.json" trigger="hover" style="width:150px;height:150px">
+          </lord-icon>
+          <h3>140</h3>
+          <b>Ticket Booking</b>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- =================================(POPULAR DESTINATION)=================================================================== -->
+
+  <section class="accomodation_area section_gap py-3 pt-5" style="background-color: #f4f5f8;">
+    <div class="container pb-5 ">
+
+      <div class="row accomodation_two my-3">
+        <small class="smal mb-2">THE BEST TRAVEL AGENCY</small>
+        <h1 class="menutext">POPULAR <span class="spannn">DESTINATION</span> </h1>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="fade-down">
+              <img src="/Timg/c1.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>France Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> France </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img" data-aos="zoom-in">
+              <img src="/Timg/c2.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Greece Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img " data-aos="fade-down">
+              <img src="/Timg/c3.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Canada Tour</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Canada </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================(video)============================================================= -->
+  <header>
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="https://duruthemes.com/demo/html/travol/img/travel-video.mp4" type="video/mp4">
+    </video>
+
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div data-aos="zoom-in-down" class="w-100 text-white">
+          <h1 class="menutext"><span class="spannnn">Costa Victoria Cochin</span> </h1>
+          <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+          <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+          <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ==================================================(TRAVEL COUNTRIES)============================================================== -->
+
+  <section class="accomodation_area section_gap py-3 pt-5" style="background-color: #f4f5f8;">
+    <div class="container pb-5 ">
+
+      <div class="row accomodation_two my-3">
+        <small class="smal mb-2">MOST POPULAR</small>
+        <h1 class="menutext"><span class="spannn">TRAVEL</span> COUNTRIES</h1>
+        <div class="col-md-6 mt-5" data-aos="zoom-in-up">
+          <h4 style="  font-family:Lilita One ; color: rgba(0, 0, 0, 0.912);">ITALY, EUROPE</h4>
+          <p>We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque
+            penatibus et magnis disney turien nascete ridiculus duru in the mus nellen.</p>
+          <div class="row mt-3 justify-content-center text-center" id="tripfafa">
+            <div class="col">
+              <!-- <i class="fa fa-map-marker" aria-hidden="true"> Roma </i><br> -->
+              <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Roma</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Venice</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>San Marino</div>
+            </div>
+            <div class="col">
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Milan</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Floren</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Parma</div>
+            </div>
+            <div class="col">
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Verona</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>peruga</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Aosta</div>
+            </div>
+          </div>
+          <div class="buttoon">
+            <button class="cta mt-4 ">
+              <span>click me</span>
+              <svg viewBox="0 0 13 10" height="10px" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/c7.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Venice</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/c6.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Rome</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Canada </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="accomodation_area section_gap  pt-3" style="background-color: #f4f5f8;">
+    <div class="container pb-5 ">
+      <div class="row accomodation_two my-3">
+        <div class="col-md-3 mt-5 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/c4.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Paris</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5 text-white">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/c5.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <h1>Loyon</h1>
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Canada </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5" data-aos="zoom-in-up">
+          <h4 style="  font-family:Lilita One ; color: rgba(0, 0, 0, 0.912);">FRANCE, EUROPE</h4>
+          <p>We provide you with interesting and exciting tours to different parts of the world. Orci varius natoque
+            penatibus et magnis disney turien nascete in the ridiculus duru in the mus nellen.</p>
+          <div class="row mt-3 justify-content-center text-center" id="tripfafa">
+            <div class="col">
+              <!-- <i class="fa fa-map-marker" aria-hidden="true"> Roma </i><br> -->
+              <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Roma</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Venice</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>San Marino</div>
+            </div>
+            <div class="col">
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Milan</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Floren</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Parma</div>
+            </div>
+            <div class="col">
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Verona</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>peruga</div>
+              <lord-icon src="https://cdn.lordicon.com/oaflahpk.json" trigger="hover" style="width:50px;height:50px">
+              </lord-icon>
+              <div>Aosta</div>
+            </div>
+          </div>
+          <div class="buttoon">
+            <button class="cta mt-4 ">
+              <span>click me</span>
+              <svg viewBox="0 0 13 10" height="10px" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =================================((form))============================================================= -->
+
+  <section class="hotel_booking_area  py-5 ">
+    <div class="container ravi rounded-3 py-5 " data-aos="zoom-in-down">
+      <small class="smal mb-2">HAPPY JOURNREY</small>
+      <h1 class="menutext text-white">BOOK YOUR TRIP </h1>
+      <div class="hotel_booking_table">
+        <div class="col-md-3">
+          <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+          <lord-icon src="https://cdn.lordicon.com/ajkxzzfb.json" class="w-50" trigger="hover"
+            style="width:100%;height:100%">
+          </lord-icon>
+        </div>
+        <div class="col-md-9">
+          <div class="boking_table">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="book_tabel_item">
+                  <div class="form-group">
+                    <div class='input-group date' id='datetimepicker11'>
+                      <input type='date' class="form-control" placeholder="Arrival Date" />
+                      <span class="input-group-addon">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                      <input type='date' class="form-control" placeholder="Departure Date" />
+                      <span class="input-group-addon">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="book_tabel_item">
+                  <div class="form-group">
+                    <div class="input-group">
+                      <select class="wide">
+                        <option data-display=" Age"> Age</option>
+                        <option value="1">16-18</option>
+                        <option value="2">18-35</option>
+                        <option value="3">35+</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <select class="wide">
+                        <option data-display=" person"> person</option>
+                        <option value="1">Family</option>
+                        <option value="2">Friends</option>
+                        <option value="3">Couple</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="book_tabel_item">
+                  <div class="input-group">
+                    <select class="wide">
+                      <option data-display=" Room type"> Room type</option>
+                      <option value="1">Single Room</option>
+                      <option value="2">Double room</option>
+                      <option value="3">triple room</option>
+                    </select>
+                  </div>
+                  <a class="btn btn-outline-info w-100" href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =================================(EXPERIENCE TRAVEL)========================================================= -->
+  <section class="accomodation_area section_gap py-5 pt-5" style="background-color: #f6f9ff;">
+    <div class="container pb-5 ">
+
+      <div class="row accomodation_two my-3">
+        <small class="smal mb-2 ">TRAVEL BLOG</small>
+        <h1 class="menutext "> <span class="spannn">EXPERIENCE </span> TRAVEL </h1>
+        <div class="col-md-4 mt-2 text-white" id="upp2">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/6.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> France </i>
+              </div>
+            </div>
+            <div id="upp" data-aos="fade-up" data-aos-duration="6000">
+              <small class="smal mb-2 text-black">TRAVEL</small>
+              <h4 style="    font-family: Fredericka the Great, cursive ;">5 Thing You Not Miss <br> In Miami</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white" id="upp2">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/7.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Greece </i>
+              </div>
+            </div>
+            <div id="upp" data-aos="fade-up" data-aos-duration="6000">
+              <small class="smal mb-2 text-black">TRAVEL</small>
+              <h4 style="    font-family: Fredericka the Great, cursive ;">Family Advanture Toures <br> For Teens & Kids
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-2 text-white" id="upp2">
+          <div class="accomodation_item text-center">
+            <div class="hotel_img">
+              <img src="/Timg/8.jpg" alt="" width="100%">
+              <div class="theme_btn">
+                <i class="fa fa-clock-o" aria-hidden="true"> 10 day </i>
+                <i class="fa fa-user-o" aria-hidden="true"> 18+ </i>
+                <i class="fa fa-map-marker" aria-hidden="true"> Canada </i>
+              </div>
+            </div>
+            <div id="upp" data-aos="fade-up" data-aos-duration="6000">
+              <small class="smal mb-2 text-black">TRAVEL</small>
+              <h4 style="    font-family: Fredericka the Great, cursive ;">Small Group Tours With <br> Flight From USA
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======================================(TESTIMONIAL)========================================================================== -->
+
+  <div class="container-fluid " style="background-color:rgba(28, 72, 129, 0.427) ;">
+    <div class="container py-5">
+      <small class="smal mb-2 text-white">TESTIMONIALS</small>
+      <h1 class="menutext text-white ">TRAVELERS <span class="spannn"> REVIEWS </span> </h1>
+      <div class="row">
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" data-aos="zoom-out-up">
+            <div class="card-body text-center">
+              <div class="card-img pt-2 pb-3"> <img
+                  src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""> </div>
+              <div class="name h5">Lisa Stephen</div>
+              <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the
+                lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss
+                habitan. </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" data-aos="zoom-out-up">
+            <div class="card-body text-center">
+              <div class="card-img pt-2 pb-3"> <img
+                  src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""> </div>
+              <div class="name h5">Hermione Granger</div>
+              <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the
+                lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss
+                habitan. </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" data-aos="zoom-out-up">
+            <div class="card-body text-center">
+              <div class="card-img pt-2 pb-3"> <img
+                  src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+              </div>
+              <div class="name h5">Millie Bobby</div>
+              <div class="testimonial"> Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the
+                lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss
+                habitan. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====================================(logos(4))===================================================================== -->
+
+  <section class="clients bg-white  ">
+    <div class="container text-center">
+      <div class="row">
+        <div class="clients-logo col-sm-3">
+          <a href="#0"><img src="/Timg/t1.png" width="100%" class="img-fluid w-50" alt=""></a>
+        </div>
+        <div class="clients-logo col-sm-3">
+          <a href="#0"><img src="/Timg/t2.png" width="100%" class="img-fluid w-50" alt=""></a>
+        </div>
+        <div class="clients-logo col-sm-3">
+          <a href="#0"><img src="/Timg/t3.png" width="100%" class="img-fluid w-50" alt=""></a>
+        </div>
+        <div class="clients-logo col-sm-3">
+          <a href="#0"><img src="/Timg/t4.png" width="100%" class="img-fluid w-50" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================(footer)=========================================================================== -->
+
+  <div class="container-fluid py-5 text-white" style="background-color: #0f2454; ">
+    <div class="container">
+      <div class="row" style="border: 1px solid rgba(183, 172, 172, 0.325);">
+        <div class="col-md-4">
+          <div class="phone-call pt-4 ">
+            <div class="row">
+              <div class="col-sm text-center">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/iepbfivp.json" trigger="hover"
+                  style="width:100px;height:100px">
+                </lord-icon>
+              </div>
+              <div class="col-sm">
+                <b>Write us</b>
+                <p class="mt-3">travol@T .com </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="phone-call pt-4 ">
+            <div class="row">
+              <div class="col-sm text-center">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/avkeowsl.json" trigger="hover"
+                  style="width:100px;height:100px">
+                </lord-icon>
+              </div>
+              <div class="col-sm">
+                <b>Call Now</b>
+                <p class="mt-3"> 855 333 4444</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="phone-call pt-4 ">
+            <div class="row">
+              <div class="col-sm text-center">
+                <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/cowtkyiz.json" trigger="hover"
+                  style="width:100px;height:100px">
+                </lord-icon>
+              </div>
+              <div class="col-sm">
+                <b>Address</b>
+                <p class="mt-3">24 King St, SC 29401 USA </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-sm-4">
+          <div>
+            <img src="https://duruthemes.com/demo/html/travol/img/logo-light.png" alt="" width="150">
+          </div><br>
+          <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim
+            diam the nesuen.</p><br>
+
+          
+        </div>
+        <div class="col-sm-4 px-5">
+          <h4><b>Quick Links</b></h4>
+          <ul>
+            <a href="#" style="text-decoration: none;">
+              <li class="text-white">About</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <li class="text-white">Tours</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <li class="text-white">Destinations</li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <li class="text-white">Blog</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h4><b>Subscribe</b></h4>
+          <p>Sign up for our monthly blogletter to stay informed about travel and tours</p>
+          <input type="email" class="w-75 p-2"><input type="button" value="Send" class="p-2 px-3 bg-primary text-white">
+        </div>
+      </div>
+      <nav class="dropdown-divider bg-white"></nav>
+
+      <small>©2022 <a href="#" style="text-decoration: none;color: aqua;">Ravisenjaliya</a>. All rights
+        reserved.</small>
+    </div>
+  </div>
+
+  <!-- ========================================================= -->
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

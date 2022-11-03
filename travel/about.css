@@ -1,0 +1,132 @@
+#navcolor {
+  background-color: #002a5b;
+}
+* {
+  box-sizing: border-box;
+}
+/* ==================(bacground image)================================= */
+body {
+  background-image: url(/Timg/bg\(4\).gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/* =========================(feture)======================================================= */
+#feture i {
+  font-size: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+#feture h3 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 40px;
+}
+#feturemenu {
+  background-color: rgba(33, 92, 151, 0.334);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+/* ================(text)============================================ */
+.spann {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(22, 228, 243);
+}
+.menutexxt {
+  font-size: 45px;
+  letter-spacing: 0.2vw;
+  font-weight: 30px;
+  font-family: "Lilita One", cursive;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+
+}
+.smal {
+  font-size: 18px;
+  letter-spacing: 0.3vw;
+}
+/* ---------------------------------------------------------- */
+.spannn {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(41, 196, 180);
+}
+.menutext {
+  font-size: 45px;
+  letter-spacing: 0.2vw;
+  font-weight: 30px;
+  font-family: "Lilita One", cursive;
+}
+.smal {
+  font-size: 18px;
+  letter-spacing: 0.3vw;
+}
+/* ====================(menu1)====================================================== */
+.spannn {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(41, 196, 180);
+}
+.menutext {
+  font-size: 45px;
+  letter-spacing: 0.2vw;
+  font-weight: 30px;
+  font-family: "Lilita One", cursive;
+}
+.smal {
+  font-size: 18px;
+  letter-spacing: 0.3vw;
+}
+/* #menuimage{
+  -webkit-box-shadow: 27px 27px 0px -3px #5489b4;
+-moz-box-shadow: 27px 27px 0px -3px #5489b4;
+box-shadow: 27px 27px 0px -3px #5489b4;
+   transition: all 0.4s linear;
+}
+#menuimage:hover{
+  -webkit-transform: scale(0.960);
+  -ms-transform: scale(0.960);
+  transform: scale(0.960);
+  -webkit-box-shadow: 27px 27px 23px 2px #5489b4;
+  -moz-box-shadow: 27px 27px 23px 2px #5489b4;
+  box-shadow: 27px 27px 23px 2px #5489b4;
+} */
+/* ===========================(testimonial)================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');*{margin: 0;padding: 0;font-family: 'Poppins', sans-serif}
+body{background-color: #161623;min-height: 100vh}
+body::before{content: '';position: absolute;left: 0;top: 0;width: 100%;height: 100%;clip-path: circle(25% at right)}
+body::after{content: '';position: absolute;left: 0;top: 0;width: 100%;min-height: 100vh;height: 100%;clip-path: circle(20% at 10% 10%)}
+.container{position: relative;z-index: 100}
+.container .row .card{width: 300px;height: 300px;margin: 30px;background: rgba(255, 255, 255, 0.1);overflow: hidden;backdrop-filter: blur(5px);border-top: 1px solid rgba(255, 255, 255, 0.5);border-left: 1px solid rgba(255, 255, 255, 0.5);border-radius: 15px;cursor: pointer}
+.container .row .card .card-body{padding: 1rem 1.2rem;color: #fff}
+.container .row .card .card-body .card-img img{width: 60px;height: 60px;object-fit: cover;transform: translateY(50px);transition: 0.5s;border-radius: 50%}
+.container .row .card .card-body .name{transform: translateY(50px);transition: 0.5s}
+.container .row .card .card-body .testimonial{font-size: 0.9rem;pointer-events: none;transform: translateY(10px);transition: 0.5s;opacity: 0}
+.container .row .card:hover .card-body .testimonial, .container .row .card:hover .card-body .name, .container .row .card:hover .card-body .card-img img{transform: translateY(0px);opacity: 1}
+@media(max-width: 991.5px)
+{body::after{clip-path: circle(40% at 10% 50%)}body::before{clip-path: circle(50% at right -10%)}}
+/* ======================================================================================================= */
+
+.themes_btn {
+  color: white;
+  /* text-align: start; */
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.themes_btn>h1 {
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 575px) {
+  .themes_btn>h1 {
+      font-size: 5vw;
+  }
+  .themes_btn>i {
+      font-size: 3vw;
+  }
+}
+/* =========================================================================== */

@@ -1,0 +1,179 @@
+/* ==================(bacground image)================================= */
+body {
+    background-image: url(/Timg/bg\(17\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  /* =========================(feture)======================================================= */
+  #feture i {
+    font-size: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+  #feture h3 {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 40px;
+  }
+  #feturemenu {
+    background-color: rgba(12, 23, 95, 0.448);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  /* ================(text)============================================ */
+  .spann {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(22, 228, 243);
+  }
+  .menutexxt {
+    font-size: 45px;
+    letter-spacing: 0.2vw;
+    font-weight: 30px;
+    font-family: "Lilita One", cursive;
+    text-shadow: 2px 2px 3px rgba(137, 137, 137, 0.912);
+  
+  }
+  .smal {
+    font-size: 18px;
+    letter-spacing: 0.3vw;
+  }
+  /* ---------------------------------------------------------- */
+  #navcolor {
+    background-color: #002a5b;
+  }
+  * {
+    box-sizing: border-box;
+  }
+/* =====================================(form)========================================= */
+
+.hotel_booking_table {
+    background: #04091ee8;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 50px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .hotel_booking_table h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .boking_table {
+    margin-left: -50px;
+  }
+  
+  .book_tabel_item .form-group {
+    margin-bottom: 0px;
+  }
+  
+  .book_tabel_item .form-group .input-group {
+    position: relative;
+  }
+  
+  .book_tabel_item .form-group .input-group .form-control {
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 0px;
+    font-size: 13px;
+    line-height: 38px;
+    padding: 0px 20px;
+    color: #ffffff;
+    z-index: 0;
+  }
+  
+  .book_tabel_item .form-group .input-group .form-control.placeholder {
+    color: #ffffff;}
+  
+  .book_tabel_item .form-group .input-group .form-control:-moz-placeholder {
+    color: #ffffff;
+  }
+  .book_tabel_item .form-group .input-group .form-control::-moz-placeholder {
+    color: #ffffff;
+  }
+  
+  .book_tabel_item .form-group .input-group .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  
+  .book_tabel_item .form-group .input-group .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .book_tabel_item .form-group .input-group .input-group-addon {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #adadad;
+    z-index: 2;
+  }
+  
+  .book_tabel_item .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .book_tabel_item .nice-select {
+    background: transparent;
+    border-radius: 0px;
+    border: 1px solid #2b3146;
+    font-size: 13px;
+    line-height: 40px;
+    height: 40px;
+    color: #777;
+  }
+  
+  .book_tabel_item .nice-select:after {
+    content: "\e874";
+    font-family: 'Linearicons-Free';
+    font-size: 13px;
+    color: #777777;
+    border: 0px;
+    top: 0;
+    margin-top: 0px;
+    right: 20px;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  .input-group select {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.868);
+    border: 1px solid #ffffffd1;
+    
+  
+  }g
+  
+  select option{
+    color: black;
+  }
+  .ravi{
+    box-shadow: rgba(0, 0, 0, 0.662) 0px 5px 15px;
+    background-color: #6bb6f360;
+  }
+    /* ==================================== */
+    #cont{
+      border-radius: 8px ;
+      border: 4px solid white;
+      background-color: rgba(2, 1, 34, 0.766);
+    }

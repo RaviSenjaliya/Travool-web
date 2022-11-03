@@ -1,0 +1,85 @@
+#navcolor {
+  background-color: #002a5b;
+}
+*{
+    box-sizing: border-box;
+  }
+  /* ==================(bacground image)================================= */
+#bod{
+    background-image: url(/Timg/ab\(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  /* =========================(feture)======================================================= */
+  #gall {
+    background-color: rgba(19, 47, 74, 0.262);
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+  /* ================(text)============================================ */
+.spann {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(22, 228, 243);
+  }
+  .menutexxt {
+    font-size: 45px;
+    letter-spacing: 0.2vw;
+    font-weight: 30px;
+    font-family: "Lilita One", cursive;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+  
+  }
+  .smal {
+    font-size: 18px;
+    letter-spacing: 0.3vw;
+  }
+/* ==========================(video)============================================ */
+#v1 {
+    position: relative;
+    background-color: black;
+    height: 10vh;
+    min-height: 15rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #v1 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  #v1 .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #v1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.553);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .spannnn {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(255, 255, 255);
+  }
+  
+  
